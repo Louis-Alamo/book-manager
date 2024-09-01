@@ -5,7 +5,7 @@ const bookRoutes = require('./routes/bookRoutes');
 const sequelize = require('./config/connection');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(bodyParser.json()); // Para manejar JSON en el cuerpo de las solicitudes
